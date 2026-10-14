@@ -1,0 +1,35 @@
+/* Append this to the bottom of style.css */
+
+/* react-icons render <svg>, not <ion-icon> */
+.contact-info svg {
+  width: 34px;
+  height: 34px;
+  padding: 9px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  color: #a78bfa;
+  background: rgba(124, 92, 255, 0.08);
+}
+
+.timeline-icon svg,
+.icon svg {
+  font-size: 20px;
+}
+
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-status {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.form-status.success {
+  color: var(--green);
+}
+
+.form-status.error {
+  color: #f87171;
+}
